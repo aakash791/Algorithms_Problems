@@ -1,7 +1,16 @@
 /*
-Assignment 3 - Finding First and Second Shortest Path
-Aakash Deep
-ad930
+This program does the following:
+1. Read the name of a text file from the console.
+2. Read a graph from the file.
+3. Find the shortest path between the start and goal vertices specified in the file.
+4. Print out the vertices on the path, in order from start to goal.
+5. Print out the length of this path.
+6. Devise a strategy for determining the second shortest path between the
+vertices.
+7. Find the second shortest path between the start and goal vertices specified in
+the file.
+8. Print out the vertices on the path, in order from start to goal.
+9. Print out the length of this path.
 */
 #include <iostream>
 #include <fstream>
