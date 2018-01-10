@@ -1,3 +1,15 @@
+/*
+This program does the following:
+1. Read the name of the text file from the console.
+2. Read in a text file, line by line.
+3. Split each line into words, discarding punctuation and folding all letters into
+lower case.
+4. Store the unique words and maintain a count of each different word.
+5. Sort the words first by decreasing count and, if there are multiple words with
+the same count, alphabetically.
+6. Output the first ten words in the sorted list, along with their counts.
+7. Output the last ten words in the list, along with their counts.
+*/
 #include<iostream>
 #include<fstream>
 #include<sstream>
